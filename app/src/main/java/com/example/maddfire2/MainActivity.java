@@ -2,6 +2,7 @@ package com.example.maddfire2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
@@ -75,18 +76,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*
-        //Nangi
+
         btnShow.setOnClickListener(view -> {
-
-
-        });
-
-        //Nethmee
-        btnUpdate.setOnClickListener(view -> {
+            Intent i = new Intent(MainActivity.this,MainActivity4.class);
+            startActivity(i);
 
         });
 
-         */
     }
 }
