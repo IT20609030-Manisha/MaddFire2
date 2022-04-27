@@ -2,8 +2,10 @@ package com.example.maddfire2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -46,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         //btnAdd = findViewById(R.id.btnAdd);
 
-        btnSave.setOnClickListener(view -> {
+        btnUpdate.setOnClickListener(view -> {
             dbRef = FirebaseDatabase.getInstance().getReference().child("Student");
 
             try {
@@ -80,13 +82,14 @@ public class MainActivity extends AppCompatActivity {
         btnShow.setOnClickListener(view -> {
 
 
-        });
+        });*/
 
-        //Nethmee
+
         btnUpdate.setOnClickListener(view -> {
-
+            Intent i = new Intent(MainActivity.this, MainActivity3.class);
+            startActivity(i);
         });
 
-         */
+
     }
 }
