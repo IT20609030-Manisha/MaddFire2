@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MaddFire2</string>
+    <string name="hint_id">Enter your ID</string>
+    <string name="hint_Name">Enter your Name</string>
+    <string name="hint_Address">Enter your Address</string>
+    <string name="hint_contact">Enter your Contact Number</string>
+</resources>
